@@ -3,8 +3,8 @@
 server with default setting (user 'root' with no password) */
 define("DB_SERVER", "127.0.0.1");
 define("DB_USER", "root");
-define("DB_PASSWORD", "jd@522000");
-define("DB_DATABASE", "loginsystem");
+define("DB_PASSWORD", "");
+define("DB_DATABASE", "name_of_your _database");
 
 $connect = mysqli_connect(DB_SERVER , DB_USER, DB_PASSWORD, DB_DATABASE);
  
